@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Street Racer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Dor">1.</string>
+    <string name="dorScore">100.</string>
+    <string name="pos_3">3.</string>
+    <string name="pos_4">4.</string>
+    <string name="pos_5">5.</string>
+    <string name="pos_6">6.</string>
+    <string name="pos_7">7.</string>
+    <string name="pos_8">8.</string>
+    <string name="pos_9">9.</string>
+    <string name="pos_10">10.</string>
+    <string name="location_permission_denied" />
+    <string name="permission_required_toast" />
+    <string name="permission_rationale_location" />
+</resources>

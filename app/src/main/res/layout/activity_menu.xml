@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    >
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/menu_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/menu_editText_mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/menu_LBL_mainMenu"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="21dp"
+        android:hint="NEW PLAYER - ENTER YOUR NAME HERE"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_mainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_SensorMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/menu_Rlayout_buttons"
+        android:layout_centerInParent="true"
+        android:text="Sensor Mode"
+        android:textColor="@color/game_icon_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/menu_Rlayout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_BTN_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="300dp"
+            android:backgroundTint="@color/white"
+            android:text="start"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_ButtonMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:text="Button Mode"
+        android:textColor="@color/game_icon_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_LBL_ButtonMode"
+        android:layout_centerInParent="true">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_BTN_slow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@color/white"
+            android:text="SLOW"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/menu_BTN_fast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/menu_BTN_slow"
+            android:backgroundTint="@color/white"
+            android:text="FAST"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_highscores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        android:backgroundTint="#F2F2F3"
+        android:text="HIGHSCORES"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>
+
